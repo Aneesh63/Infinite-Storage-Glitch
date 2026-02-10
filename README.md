@@ -75,6 +75,21 @@ How to use
 ![2023-02-16_22-12](https://user-images.githubusercontent.com/96934612/219563769-c05370e9-3f40-406a-85b8-eca14a118be8.png)
 
 
+
+## Rain Light helper program
+
+This repository now also includes a tiny local CLI utility that maps:
+- **Forest Green = 1**
+- **Olive Green = 0**
+
+Run it on this PC with:
+
+```bash
+cargo run --bin rain_light -- encode "Hello"
+cargo run --bin rain_light -- decode-bits 0100100001100101011011000110110001101111
+cargo run --bin rain_light -- decode-colors "Forest Green Olive Green ..."
+```
+
 # Demo
 **Flashing lights warning !!!1!1** - [YouTube Link](https://www.youtube.com/watch?v=8I4fd_Sap-g)
 
